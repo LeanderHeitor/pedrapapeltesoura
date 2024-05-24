@@ -35,6 +35,3 @@ class Jogatina:
             return f"{self.jogadorUm} vence!"
         else:
             return f"{self.jogadorDois} vence!"
-
-    def limpar_terminal(self):
-        print("\n" * 100)
